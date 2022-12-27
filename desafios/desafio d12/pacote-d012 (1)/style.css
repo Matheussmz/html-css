@@ -15,34 +15,58 @@
 header{
     background-color: black;
     color: white;
+    height: 150px;
 }
 header > h1{
     font-family: var(--fonte-destaque1);
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+header > a{
+    padding: 20px;
 }
 a{
     color: white;
     text-decoration: none;
 }
-.imagem>p {
-    background-color:rgba(0, 0, 0, 0.301);
-    padding: 20px;
-    width:200px;
-    font-family: var(--fonte-destaque1);
-    
+a:hover{
+    text-decoration: underline;
+    color:gray;
 }
 .normal{
     font-family: var(--fonte-destaque2);
 }
 .imagem{
     color: white;
-    padding: 20px;
     font-family: var(--fonte-destaque1);
 }
+.imagem>p {
+    background-color:rgba(0, 0, 0, 0.301);
+    padding: 30px;
+    width:250px;
+    font-family: var(--fonte-destaque1);
+    font-size: 20px;
+}
+section > p{
+    margin: 10px;
+    font-size: 20px;
+    padding: 50px;
+}
+
 #flor{
     background-image: url(imagens/background001.jpg);
     background-size: cover;
     background-position: center center;
-    height:200px;
     background-attachment: fixed;
+    padding:40px 20px 40px 0px;
+    
+}
+#livro{
+    background-image:url(imagens/background002.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding:40px 20px;
 }
 
