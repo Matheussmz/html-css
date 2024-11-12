@@ -7,22 +7,38 @@
     <title>Alinhamento vertical </title>
     <style>
        #conteiner{
-        background-image:url(imagens/target001.png);
-        background-color: rebeccapurple;
-        background-size:100% 100%;
-        height:94vh;
-        padding:10px;
+        background-color: blueviolet;
+        background-image: url(imagens/target001.png);
+        background-size: 100% 100%;
+        width: 87vh;
+        height: 96vh;
         position: relative;
        }
        #conteudo{
-        background-color:royalblue;
-        background-image:url(imagens/target001.png);
-        height:200px;
-        width:300px;
-        background-size:100% 100%;
-        position:absolute;
-        left:50%;
-        top:50%;
+        background-color: royalblue;
+        background-image: url(imagens/target001.png);
+        background-size: 100% 100%;
+        width: 300px;
+        height: 200px;
+        position: absolute;
+
+        top: 50%;
+        left: 50%;
+
+        transform: translate(-50%, -50% );
+       }
+
+       #conteudo2{
+        background-color: darkblue;
+        background-image: url(imagens/target001.png);
+        background-size: 100% 100%;
+        width: 300px;
+        height: 200px;
+
+        position: absolute;
+        top: 20%;
+        left: 50%;
+
         transform: translate(-50%, -50%);
        }
     </style>
@@ -30,7 +46,8 @@
 <body>
     <section id="conteiner">
         <article id="conteudo">
-            
+        </article>
+        <article id="conteudo2">
         </article>
     </section>
 </body>
