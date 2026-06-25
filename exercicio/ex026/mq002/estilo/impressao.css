@@ -1,0 +1,11 @@
+@charset "UTF-8";
+html{
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    text-align: center;
+}
+
+menu{
+    display: none;
+}
